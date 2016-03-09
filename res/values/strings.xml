@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solarstats</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="sideMenu">
+        <item>Data</item>
+        <item>Diagram</item>
+        <item>Solar systems</item>
+        <item>Exported</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="data_date_spinner">
+        <item>Choose date</item>
+        <item>Yesterday</item>
+        <item>Today</item>
+    </string-array>
+    <string-array name="data_export_types">
+        <item>Excel-Sheet</item>
+        <item>PDF (without diagram)</item>
+        <item>PDF (with diagram)</item>
+    </string-array>
+    <string-array name="data_import_types">
+        <item>Excel-Table (.xls)</item>
+        <item>Bluetooth (SMA inverter)</item>
+    </string-array>
+    <string-array name="diagramm_export_types">
+        <item>Image (15cm x 10cm)</item>
+        <item>Image (1920px x 1080px)</item>
+        <item>Image (costum size)</item>
+    </string-array>
+    <integer-array name="diagramm_image_export_width_px">
+        <item>1772</item>
+        <item>1920</item>
+    </integer-array>
+    <integer-array name="diagramm_image_export_height_px">
+        <item>1181</item>
+        <item>1080</item>
+    </integer-array>
+    <string-array name="diagramm_categorySpinner">
+        <item>Entire data</item>
+        <item>Month</item>
+        <item>One year</item>
+        <item>More years</item>
+        <item>Year-Comparison</item>
+        <item>Choose period</item>
+    </string-array>
+    <string-array name="helpTabs">
+        <item>Data</item>
+        <item>Diagram</item>
+        <item>Solar systems</item>
+        <item>Exported</item>
+    </string-array>
+    <string-array name="valueSizes">
+        <item>Wh</item>
+        <item>kWh</item>
+        <item>MWh</item>
+        <item>GWh</item>
+    </string-array>
+    <string-array name="reminderIntervals">
+        <item>Each day</item>
+        <item>Every second day</item>
+        <item>Every fourth day</item>
+        <item>Weekly</item>
+    </string-array>
+    <string-array name="daysOfWeek">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="systemColors">
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Violet</item>
+        <item>Blue</item>
+    </string-array>
+    
+    <string name="update_system_name">Mainsystem</string>
+    
+    <string name="reminder_title">Insert meter reading</string>
+    <string name="reminder_text">Please type in today\'s meter reading</string>
+    <string name="reminder_edit">Insert</string>
+    <string name="reminder_later">In 1 hour</string>
+    
+    <string name="start_loading">Loading data…</string>
+    <string name="start_version">Version: %1$s</string>
+    
+    <string name="toast_finish_app">To leave press back again</string>
+    <string name="load_data_dialog_text">Loading data…</string>
+    
+    <string name="first_title">Solarstats Introduction</string>
+    <string name="first_back">Back</string>
+    <string name="first_forward">Next</string>
+    <string name="first_finish">Start</string>
+    <string name="first_1">Welcome to Solarstats.\nThis introduction will show you, which oppurtunities this app offers.\n\n<b>1. Menu</b>\nYou can open the menu with a click in the top left corner or with a slide from left:</string>
+    <string name="first_2"><b>2. Data</b>\nYou can see the stored meter readings as a table. Below, enter the value for any date. With a long click on an entry you can delete it.</string>
+    <string name="first_3_top"><b>3. Im- and Export</b>\nMeter readings can be imported from an excel file (.xls). Please make sure that the file is formatted like this:</string>
+    <string name="first_3_bottom">Next to each date in the left column is a value in the immediate neighboring right column. Here, each date should only occur once.\n\nBoth, meter readings and graphs, can be exported via the menu in the upper right corner. Files that are created, you can view below <i>Exported</i>.</string>
+    <string name="first_4_top"><b>4. Diagram</b>\nYour stored data can be represented as a diagram. You have many types available. In some types you can display several solar systems in one diagram. In the menu in the upper right corner you can then select the solar systems to display.</string>
+    <string name="first_4_bottom">Charts can be displayed only when a sufficient number of meter readings is stored. Sensibly they are only when data is entered regularly.</string>
+    <string name="first_5_top"><b>5. Manage solar systems</b>\nSolarstats offers you the possibility to manage several solar systems. In the menu on the left hand side you can select the solar system you want to see or edit. Charts and counters always refer to this system.\nUnder <i>Solar systems</i>, you can manage the systems. If you have stored at least two systems, a total overview will be shown:</string>
+    <string name="first_5_bottom">Assign the different solar systems colors to distinguish them in diagram. If you specify peak power and earnings per kWh, Solarstats calculates efficiency and profit per system.</string>
+    <string name="first_6_top"><b>6. Reminder</b>\nTo help you remember it regularly enter the meter reading, you can be reminded in a specific rhythm. In the <i>Settings</i> you can activate and edit this feature.</string>
+    <string name="first_6_bottom">You have now been informed of all the features of Solarstats. Please note that I look forward to suggestions for improvement. I would be delighted if you would recommend and rate the app. For more information, see <i>Help</i> and <i>About this app</i>.</string>
+    
+    <string name="export_foldername">solarstats</string>
+   
+    <string name="file_chooser_title">Choose file</string>
+    <string name="file_chooser_back">Back</string>
+    
+    <string name="data_fragment_table_date">Date</string>
+    <string name="data_fragment_table_value">Meter reading</string>
+    <string name="data_fragment_table_produced">produced</string>
+    <string name="data_fragment_no_data_text">You can insert data with the insertion field on the bottom of the screen.\n Also you can import data from an <b>excel file (.xls)</b>.</string>
+    <string name="data_fragment_save_button">OK</string>
+    <string name="data_fragment_toast_incorrect_value">The inserted value is invalid.</string>
+    <string name="data_fragment_toast_couldntreadfile">Error while reading file</string>
+    <string name="data_fragment_toast_noexport">No data to export</string>
+    <string name="data_fragment_toast_onlyxls">Only .xls files are supported</string>
+    <string name="data_fragment_toast_noled">Your devices doesn\'t support flashlight.</string>
+    <string name="data_fragment_toast_bluetooth_notavailible">Bluetooth isn\'t available</string>
+    <string name="data_fragment_update_dialog_title">Override data</string>
+	<string name="data_fragment_update_dialog_message">Do you want to override the meter reading from %1$s?\n\nold:\t\t\t\t%2$s\nnew:\t\t\t%3$s</string>
+    <string name="data_fragment_update_dialog_negative">Cancel</string>
+    <string name="data_fragment_update_dialog_positiv">Override</string>
+    <string name="data_fragment_import_dialog_title">Daten importieren</string>
+    <string name="data_fragment_import_excel_dialog_title">Import data</string>
+    <string name="data_fragment_import_excel_dialog_message">%1$d meter readings were found:\n%2$s: %3$s\n…\n%4$s: %5$s</string>
+    <string name="data_fragment_import_excel_dialog_message1">CAUTION! Data in this range will be deleted.</string>
+    <string name="data_fragment_import_excel_dialog_message2">CAUTION! All data so far will be delted, because they don\'t fit to the new.</string>
+    <string name="data_fragment_import_excel_dialog_valueSize">Unit:</string>
+    <string name="data_fragment_import_excel_dialog_negative">Cancel</string>
+    <string name="data_fragment_import_excel_dialog_positiv">Import</string>
+    <string name="data_fragment_import_excel_progress1">Reading data, please wait…</string>
+    <string name="data_fragment_import_excel_progress2">Saving data, please wait…</string>
+    <string name="data_fragment_import_excel_nodata_dialog_title">No data found</string>
+    <string name="data_fragment_import_excel_nodata_dialog_message">No data found. Please check, if the data is saved in the correct format. You can find some more information under <i>Help</i>.\nYou can try to change the system language to English (US). This may help if you restart the app. Otherwise feel free to contact me.</string>
+    <string name="data_fragment_import_excel_nodata_dialog_positive">Help</string>
+    <string name="data_fragment_import_excel_nodata_dialog_negative">Cancel</string>
+    <string name="data_fragment_import_bluetooth_progressdialog_message">Scan for bluetooth devices near you, please wait…</string>
+    <string name="data_fragment_import_bluetooth_list_dialog_title">Choose inverter</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_title">No bluetooth devices</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_message">No bluetooth devices were found near you.</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_negative">Cancel</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_positive">Try again</string>
+	<string name="data_fragment_delete_dialog_title">Delete meter reading</string>
+    <string name="data_fragment_delete_dialog_message">Do you want to delete the meter reading from %1$s?</string>
+    <string name="data_fragment_delete_dialog_positive">Delete</string>
+    <string name="data_fragment_delete_dialog_negative">Cancel</string>
+    <string name="data_fragment_export_dialog_title">Export data as</string>
+    <string name="data_fragment_export_dialog_start">Startmonth: </string>
+    <string name="data_fragment_export_dialog_end">Endmonth: </string>
+    <string name="data_fragment_export_dialog_month">Month: </string>
+    <string name="data_fragment_export_dialog_positive">Create file</string>
+    <string name="data_fragment_export_dialog_negative">Cancel</string>
+    <string name="data_fragment_export_dialog_toast">The startmonth has to be before the endmonth</string>
+    <string name="data_fragment_export_progress_title">Export</string>
+    <string name="data_fragment_export_progress_message">Creating file, please wait…</string>
+    <string name="data_fragment_export_excel_filename">data_%1$s.xls</string>
+    <string name="data_fragment_export_excel_sheetname">meter readings</string>
+    <string name="data_fragment_export_excel_head1">date</string>
+    <string name="data_fragment_export_excel_head2">meter reading</string>
+    <string name="data_fragment_export_pdf_filename">data_%1$s.pdf</string>
+    <string name="data_fragment_export_pdf_title">Meter readings %1$s</string>
+    <string name="data_fragment_export_pdf_subtitle">Generated by the <b>Solarstats</b> Android-App</string>
+    <string name="data_fragment_export_pdf_homepage"></string>
+    <string name="data_fragment_export_pdf_apwcopyright">Android PDF Writer © Copyright 2010 - 2013 | http://coderesearchlabs.com/androidpdfwriter</string>
+    
+    <string name="data_fragment_menu_import">Import</string>
+    <string name="data_fragment_menu_export">Export</string>
+    <string name="data_fragment_menu_led">LED</string>
+    
+    <string name="diagramm_fragment_view_text_no_data">Too little data</string>
+    <string name="diagramm_fragment_view_text_loading">Loading…</string>
+    <string name="diagramm_fragment_timespinner_choosedata">Choose data</string>
+    <string name="diagramm_fragment_dialog_start_title">Choose startmonth</string>
+    <string name="diagramm_fragment_dialog_end_title">Choose endmonth</string>
+    <string name="diagramm_fragment_dialog_select">OK</string>
+    <string name="diagramm_fragment_dialog_pickyears_title">Choose years</string>
+    <string name="diagramm_fragment_dialog_pickyears_text_comparison">and</string>
+    <string name="diagramm_fragment_dialog_pickyears_button">OK</string>
+    <string name="diagramm_fragment_dialog_pickyears_pickedsame_toast">Please choose two different years.</string>
+    <string name="diagramm_fragment_dialog_pickyears_text_moreyears">to</string>
+    <string name="diagramm_fragment_wrong_time_selected_toast">Invalid dates: %1$s isn\'t before %2$s</string>
+    <string name="diagramm_fragment_export_dialog_title">Export data as</string>
+    <string name="diagramm_fragment_export_progress_title">Export</string>
+    <string name="diagramm_fragment_export_progress_message">Creating file, please wait…</string>
+    <string name="diagramm_fragment_export_filename">diagram_%1$s.png</string>
+    <string name="diagramm_fragment_export_text_left">Created by the Solarstats Android-App</string>
+    <string name="diagramm_fragment_export_text_right"></string>
+    <string name="diagramm_fragment_export_dialog_size_title">Choose imagesize</string>
+    <string name="diagramm_fragment_export_dialog_size_negative">Cancel</string>
+    <string name="diagramm_fragment_export_dialog_size_positive">Create image</string>
+    <string name="diagramm_fragment_export_dialog_size_maxvalue">40</string>
+    <string name="diagramm_fragment_export_dialog_size_minvalue">7</string>
+    <string name="diagramm_fragment_export_dialog_size_width">Width:</string>
+    <string name="diagramm_fragment_export_dialog_size_height">Height:</string>
+    <string name="diagramm_fragment_export_dialog_size_value">%1$d px</string>
+    
+    <string name="diagramm_fragment_menu_export">Export</string>
+    
+    <string name="solarsystems_fragment_percentbar_nodata">No data</string>
+    <string name="solarsystems_fragment_dialog_edit_title">Edit system</string>
+    <string name="solarsystems_fragment_dialog_new_title">New system</string>
+    <string name="solarsystems_fragment_dialog_new_name">Name:</string>
+    <string name="solarsystems_fragment_dialog_new_hint_must">required</string>
+    <string name="solarsystems_fragment_dialog_new_hint_may">optional</string>
+    <string name="solarsystems_fragment_dialog_new_defaultname">Mainsystem</string>
+    <string name="solarsystems_fragment_dialog_new_date">Installationdate:</string>
+    <string name="solarsystems_fragment_dialog_new_date_dialog_title">Choose Installationdate</string>
+    <string name="solarsystems_fragment_dialog_new_date_button">choose</string>
+    <string name="solarsystems_fragment_dialog_new_peak">Peak power:</string>
+    <string name="solarsystems_fragment_dialog_new_peak_unit_ending">/p</string>
+    <string name="solarsystems_fragment_dialog_new_payment">Earnings per %1$s:</string>
+    <string name="solarsystems_fragment_dialog_new_color">Color:</string>
+    <string name="solarsystems_fragment_dialog_new_cent">&#x00A2;</string>
+    <string name="solarsystems_fragment_dialog_new_positive">Save</string>
+    <string name="solarsystems_fragment_dialog_new_negative">Cancel</string>
+    <string name="solarsystems_fragment_dialog_delete_title">Delete system</string>
+    <string name="solarsystems_fragment_dialog_delete_message">Do you want to delete this system?\n\nCAUTION! All meter readings in this system will be delted too. This cannot be undone.</string>
+    <string name="solarsystems_fragment_dialog_delete_positive">Delete</string>
+    <string name="solarsystems_fragment_dialog_delte_negative">Cancel</string>
+    <string name="solarsystems_fragment_progressdialog_deleting">Deleting…</string>
+    <string name="solarsystems_fragment_no_data"><i>No data</i></string>
+    <string name="solarsystems_fragment_saved_meter_reading">Saved meter readings:</string>
+    <string name="solarsystems_fragment_total_value">Meter reading:</string>
+    <string name="solarsystems_fragment_efficiency">Efficiency:</string>
+    <string name="solarsystems_fragment_earnings">Total earnings:</string>
+    <string name="solarsystems_fragment_name_total">Total</string>
+    
+    <string name="solarsystems_fragment_notset"><i>Not saved</i></string>
+    
+    <string name="solarsystems_fragment_menu_add">New solarsystem</string>
+    
+    <string name="exported_fragment_no_data_text">No files\nYou can export meter readings and diagrams</string>
+    <string name="exported_fragment_dialog_rename_title">Rename files</string>
+    <string name="exported_fragment_dialog_rename_message">New filename:</string>
+    <string name="exported_fragment_dialog_rename_positive">Rename</string>
+    <string name="exported_fragment_dialog_rename_negative">Cancel</string>
+    <string name="exported_fragment_dialog_delete_title">Delete file</string>
+    <string name="exported_fragment_dialog_delete_message">Do you want to delete this file?\n%1$s</string>
+    <string name="exported_fragment_dialog_delete_positive">Delete</string>
+    <string name="exported_fragment_dialog_delete_negative">Cancel</string>
+    <string name="exported_fragment_toast_wrong_char_filename">Invalid charcter!</string>
+    <string name="exported_fragment_toast_file_exists">This filename isn\'t available.</string>
+    <string name="exported_fragment_share_via">Share via</string>
+    
+    <string name="exported_fragment_context_menu_open">Open</string>
+    <string name="exported_fragment_context_menu_rename">Rename</string>
+    <string name="exported_fragment_context_menu_delete">Delete</string>
+    <string name="exported_fragment_context_menu_share">Share…</string>
+    
+    <string name="help_data_1"><b>The table</b>\nYour meter readings are shown in a table. In the left column is the date, in the middle the meter reading and in the right column the value how much your solar system has produced on that day. If there is the character \"~\" then it\'s an average.\nTo edit an entry, select him and type a new value in. If you want to delete an entry, then you click on him longer.</string>
+    <string name="help_data_2"><b>Insert data</b>\nUse the input field at the bottom of the screen to enter the meter readings of your solar system. To the left of the input field, you can select a date. It is always checked automatically whether the input value can be correct (ie, it is at least as large as the count from the day before and at most as large as the count from the next day). The unit (kWh, MWh, etc.) your data will be stored, you can specify in the settings.</string>
+    <string name="help_data_3"><b>Import data (excel)</b>\nIn the menu you can import meter readings from an excel file. Only .xls files will be accepted. You select the file from your device. Then Solarstats searches for data. The data in the excel file must be in this format, so that they can be found:</string>
+    <string name="help_data_4">Next to each date in the left column is a value in the immediate neighboring right column. Here, each date should only occur once.</string>
+    <string name="help_diagramm_1"><b>Entire data</b>\nThis graph represents all the data that are stored. You can see by touching the graph the exact values for each day. With the menu in the top right corner you can display more solar plants if available.</string>
+    <string name="help_diagramm_2"><b>Month</b>\nIn this diagram, you can select the month to be displayed at the bottom right. There are only months in which at least two counts were saved because otherwise no chart can be generated. Here you can see also the exact values by a touch of the graph and you can also select more solar plants.</string>
+    <string name="help_diagramm_3"><b>One Year</b>\nThis column chart can give the overview of individual years. There are also at least two meter readings for a year needed so that you can select it. The diagram is useful only if you enter values regularly.</string>
+    <string name="help_diagramm_4"><b>More Years</b>\nThis diagram gives you an overview over several years. You must specify the start and end year. It is only useful with a lot of data.</string>
+    <string name="help_diagramm_5"><b>Year Comparison</b>\nThis column chart can compare two years. This is only possible if you have saved at least two meter readings for two or more years. However, this diagram form is only useful if many meter readings are available.</string>
+    <string name="help_diagramm_6"><b>Choose period</b>\nFor this chart, you must specify a time period. Again, you get through a touch of the graph the exact values of the days. Here you can also display more solar plants in one chart by selecting the systems in the top right menu.</string>
+    <string name="help_systems_1"><b>Total overview</b>\nIf you manage at least two solar systems or inverters with Solarstats, you get on top of the screen a list of all existing data.\nA small chart gives you an overview of the proportions of each solar system.</string>
+    <string name="help_systems_2"><b>Individual solar system</b>\nWith the plus symbol in the upper right corner you can add solar systems. A name, installation date and color are always necessary. Optionally, you can enter the peak power and earnings per kWh. From this data, efficiency and overall profit can be calculated.\nPlease note that the efficiency calculation is more accurate if you enter more data. So if you have only entered a few data, it may get a false efficiency values.</string>
+    <string name="help_exported">On this screen, all exported files are displayed. With a simple click you can open a file, by holding down you get several options. So you can send the files as e-mail.</string>
+    
+    <string name="settings_title">Settings</string>
+    <string name="settings_title_valueSize">Unit</string>
+    <string name="settings_default_valueSize">kWh</string>
+    <string name="settings_title_enableReminder">Daily reminder</string>
+    <string name="settings_summary_enableReminder">A reminder that reminds you daily to insert the meter reading.</string>
+    <string name="settings_title_reminderInterval">Reminder intervall</string>
+    <string name="settings_title_reminderTime">Time</string>
+    <string name="settings_reminderTime_default">21:00</string>
+    <string name="settings_title_reminderDay">Day</string>
+    <string name="settings_title_reminderNextAlarm">Next alarm</string>
+    <string name="settings_title_deleteAll">Delete all data</string>
+    <string name="settings_summary_deleteAll">Caution! All meter readings will be deleted. This cannot be undone.</string>
+    <string name="settings_deleteDilaog_negative">Cancel</string>
+    <string name="settings_deleteDilaog_positive">Delete</string>
+    <string name="settings_deleteDilaog_progress">Deleting…</string>
+    <string name="settings_intervalDialog_title">Set reminder interval</string>
+    <string name="settings_timeDialog_title">Choose time</string>
+    <string name="settings_dayDialog_title">Choose day</string>
+    <string name="settings_valueSizeDialog_title">Choose unit</string>
+    <string name="settings_valueSizeDialog_checkbox">Transform current data to new unit</string>
+    <string name="settings_valueSizeDialog_negative">Cancel</string>
+    <string name="settings_valueSizeDialog_positive">Save</string>
+    <string name="settings_valueSizeProgressDialog_title">Transforming data</string>
+    <string name="settings_valueSizeProgressDialog_message">Transforming data, please wait…</string>
+    
+    <string name="about_fragment_imprint"><b>Imprint</b>\nMarkus Wiktorin\nHeussstr. 23\n53332 Bornheim\nGermany\nE-Mail: <a href="mailto:markuswiktorin@gmail.com">markuswiktorin@gmail.com</a></string>
+	<string name="about_fragment_info"><b>Information</b>\nFor errors or suggestions for improvement please contact me at the e-mail address given below.\nMany thanks to the <a href="http://jexcelapi.sourceforge.net/">Java Excel API</a> open source project. The import and export of the counts work with this project.\nTo create PDF documents the <a href="http://coderesearchlabs.com/androidpdfwriter/">Android PDF Writer Library</a> is used.</string>
+	<string name="about_fragment_apwcopyright"><a href="">Copyright-Information about Android PDF Writer Library</a></string>
+	<string name="about_fragment_disclaimer1"><b>Liability for content</b>\nAs a service provider we are responsible for our own content in this app under the general laws according to § 7 ​​paragraph 1 of TMG. According to §§ 8 to 10 TMG we are not obliged as a service provider to monitor transmitted or stored foreign information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under the general laws remain unaffected. However, a relevant liability is only possible from the date of knowledge of a specific infringement. Upon notification of such violations, we will remove the content immediately.</string>
+	<string name="about_fragment_disclaimer2"><b>Liability for links</b>\nOur app contains links to external websites over which we have no control. Therefore we can not accept any responsibility for their content. The respective provider or operator of the pages is always responsible for the contents of the site. The linked sites were checked at the time of linking for possible violations of law. A permanent control of the linked pages is unreasonable without concrete evidence of a violation. Upon notification of violations, we will remove such links immediately.</string>
+	<string name="about_fragment_apwdialog_title">Android PDF Writer Library</string>
+	<string name="about_fragment_apwdialog_message">Android PDF Writer\nCopyright © 2013–2013\n\nAll righs reserved.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \'AS IS\' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE G00DS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+	<string name="about_fragment_apwdialog_positive">OK</string>
+	<string name="about_fragment_buttonRate">Rate</string>
+	<string name="about_fragment_buttonShare">Share</string>
+	<string name="about_fragment_rate_url">https://play.google.com/store/apps/details?id=de.mwiktorin.solarstats</string>
+	<string name="about_fragment_share_subject">Solarstats Android-App</string>
+	<string name="about_fragment_share_text">I have found a great app. Here you can have a look and download it for free:\n</string>
+	<string name="about_fragment_share_chooser">Share via</string>
+</resources>

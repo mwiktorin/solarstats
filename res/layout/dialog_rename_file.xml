@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/alertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:drawablePadding="10dip"
+            android:drawableLeft="@drawable/ic_menu_edit"
+            android:singleLine="true"
+            android:text="@string/exported_fragment_dialog_rename_title"
+            android:textColor="@color/dark_orange"
+            android:textSize="23sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/dark_orange" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:layout_weight="1"
+            android:paddingBottom="8dip"
+            android:paddingEnd="16dip"
+            android:paddingStart="16dip"
+            android:paddingTop="8dip"
+            android:text="@string/exported_fragment_dialog_rename_message" />
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:orientation="horizontal">
+            
+            <EditText 
+                android:id="@+id/rename_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:maxLength="50"
+                android:inputType="text"
+                android:singleLine="true"
+                android:gravity="right"
+                android:layout_weight="1"/>
+            
+            <TextView 
+                android:id="@+id/rename_fileending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:measureWithLargestChild="true"
+        android:orientation="horizontal"
+        android:paddingEnd="2dip"
+        android:paddingStart="2dip"
+        android:paddingTop="4dip" >
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:text="@string/exported_fragment_dialog_rename_negative" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:text="@string/exported_fragment_dialog_rename_positive" />
+    </LinearLayout>
+
+</LinearLayout>

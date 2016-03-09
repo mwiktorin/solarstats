@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solarstats</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="sideMenu">
+        <item>Daten</item>
+        <item>Diagramm</item>
+        <item>Solaranlagen</item>
+        <item>Exportiert</item>
+        <item>Hilfe</item>
+        <item>Über diese App</item>
+    </string-array>
+    <string-array name="data_date_spinner">
+        <item>Datum wählen</item>
+        <item>Gestern</item>
+        <item>Heute</item>
+    </string-array>
+    <string-array name="data_export_types">
+        <item>Excel Tabelle</item>
+        <item>PDF (ohne Diagramm)</item>
+        <item>PDF (mit Diagramm)</item>
+    </string-array>
+    <string-array name="data_import_types">
+        <item>Excel-Tabelle (.xls)</item>
+        <item>Bluetooth (SMA Wechselrichter)</item>
+    </string-array>
+    <string-array name="diagramm_export_types">
+        <item>Bild (15cm x 10cm)</item>
+        <item>Bild (1920px x 1080px)</item>
+        <item>Bild (Größe einstellen)</item>
+    </string-array>
+    <integer-array name="diagramm_image_export_width_px">
+        <item>1772</item>
+        <item>1920</item>
+    </integer-array>
+    <integer-array name="diagramm_image_export_height_px">
+        <item>1181</item>
+        <item>1080</item>
+    </integer-array>
+    <string-array name="diagramm_categorySpinner">
+        <item>Gesamter Zeitraum</item>
+        <item>Monat</item>
+        <item>Ein Jahr</item>
+        <item>Mehrere Jahre</item>
+        <item>Jahr-Vergleich</item>
+        <item>Zeitraum wählen</item>
+    </string-array>
+    <string-array name="helpTabs">
+        <item>Daten</item>
+        <item>Diagramm</item>
+        <item>Solaranlagen</item>
+        <item>Exportiert</item>
+    </string-array>
+    <string-array name="valueSizes">
+        <item>Wh</item>
+        <item>kWh</item>
+        <item>MWh</item>
+        <item>GWh</item>
+    </string-array>
+    <string-array name="reminderIntervals">
+        <item>Täglich</item>
+        <item>Jeden 2. Tag</item>
+        <item>Jeden 4. Tag</item>
+        <item>Wöchentlich</item>
+    </string-array>
+    <string-array name="daysOfWeek">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="systemColors">
+        <item>Orange</item>
+        <item>Rot</item>
+        <item>Grün</item>
+        <item>Violett</item>
+        <item>Blau</item>
+    </string-array>
+    
+    <string name="update_system_name">Hauptanlage</string>
+    
+    <string name="reminder_title">Zählerstand eintragen</string>
+    <string name="reminder_text">Bitte geben Sie den heutigen Zählerstand ein.</string>
+    <string name="reminder_edit">Eintragen</string>
+    <string name="reminder_later">In 1 Stunde</string>
+    
+    <string name="start_loading">Daten werden geladen…</string>
+    <string name="start_version">Version: %1$s</string>
+    
+    <string name="toast_finish_app">Um zu beenden erneut zurück tippen</string>
+    <string name="load_data_dialog_text">Daten werden geladen…</string>
+    
+    <string name="first_title">Solarstats Einführung</string>
+    <string name="first_back">Zurück</string>
+    <string name="first_forward">Weiter</string>
+    <string name="first_finish">Starten</string>
+    <string name="first_1">Herzlich Willkommen bei Solarstats.\nDiese Einführung soll Ihnen zeigen, welche Möglichkeiten Solarstats bietet.\n\n<b>1. Menü</b>\nMit einem Klick in die obere linke Ecke oder durch ein Wischen von links können Sie das Menü öffnen:</string>
+    <string name="first_2"><b>2. Daten</b>\nSie sehen die gespeicherten Zählerstände als Tabelle. Unten geben Sie den Zählerstand für ein beliebiges Datum ein. Durch ein längeres Klicken auf einen Eintrag können Sie diesen löschen.</string>
+    <string name="first_3_top"><b>3. Im- und exportieren</b>\nBereits vorhandene Zählerstände in Form einer Excel-Tabelle (.xls) können von Solarstats importiert werden. Dazu müssen sie in folgender Formatierung abgespeichert sein:</string>
+    <string name="first_3_bottom">Neben jedem Datum in der linken Spalte steht ein Zählerstand in der direkten rechten Nachbarspalte. Dabei sollte jedes Datum nur einmal vorkommen.\n\nSowohl Zählerstände als auch Diagramme können Sie über das Menü in der oberen rechten Ecke exportieren. Dateien, die so erstellt werden, können Sie unter <i>Exportiert</i> einsehen.</string>
+    <string name="first_4_top"><b>4. Diagramm</b>\nIhre gespeicherten Daten können Sie als Diagramm darstellen lassen. Es stehen Ihnen viele Typen zur Verfügung. Bei einigen Typen können Sie mehrere Solaranlagen in einem Diagramm anzeigen lassen. Im Menü in der oberen rechten Ecke können Sie die anzuzeigenden Solaranlagen dann auswählen.</string>
+    <string name="first_4_bottom">Diagramme können nur bei ausreichend vielen Zählerständen angezeigt werden. Sinnvoll sind sie erst, wenn regelmäßig Daten eingetragen werden.</string>
+    <string name="first_5_top"><b>5. Solaranlagen verwalten</b>\nSolarstats bietet Ihnen die Möglichkeit, mehrere Solaranlagen zu verwalten. Im Menü auf der linken Seite können Sie oben die aktuell anzuzeigende Solaranlage wählen. Diagramme und Zählerstände beziehen sich immer auf diese Anlage.\nUnter <i>Solaranlagen</i> können Sie Ihre Anlagen verwalten. Sollten Sie mindestens zwei verwalten, erhalten Sie oben eine Gesamt-Übersicht:</string>
+    <string name="first_5_bottom">Ordnen Sie den verschiedene Solaranlagen Farben zu, um sie in Diagrammen unterscheiden zu können. Wenn Sie Spitzenleistung und Gewinn pro kWh angeben, berechnet Solarstats Effizienz und Gewinn pro Anlage.</string>
+    <string name="first_6_top"><b>6. Erinnerung</b>\nDamit Sie nicht vergessen den Zählerstand regelmäßig einzutragen, können Sie sich in einem bestimmten Rhythmus erinnern lassen. In den Einstellungen können Sie diese Funktion aktivieren und verschiedene Intervalle einstellen.</string>
+    <string name="first_6_bottom">Sie wurden jetzt über alle Funktionen von Solarstats informiert. Bitte beachten Sie, dass ich gerne auf Verbesserungsvorschläge eingehe. Es würde mich freuen, wenn Sie die App weiterempfehlen und bewerten. Weitere Informationen erhalten Sie unter <i>Hilfe</i> und <i>Über diese App</i>.</string>
+    
+    <string name="export_foldername">solarstats</string>
+    
+    <string name="file_chooser_title">Datei wählen</string>
+    <string name="file_chooser_back">Zurück</string>
+    
+    <string name="data_fragment_table_date">Datum</string>
+    <string name="data_fragment_table_value">Zählerstand</string>
+    <string name="data_fragment_table_produced">produziert</string>
+    <string name="data_fragment_no_data_text">Mit dem Eingabefeld am unteren Bildschirmrand können Sie Zählerstände eintragen.\n Außerdem können Sie Zählerstände aus <b>Excel-Dateien (.xls) importieren</b>.</string>
+    <string name="data_fragment_save_button">OK</string>
+    <string name="data_fragment_toast_incorrect_value">Der eingegeben Wert ist ungültig.</string>
+    <string name="data_fragment_toast_couldntreadfile">Die Datei konnte nicht erkannt werden.</string>
+    <string name="data_fragment_toast_noexport">Keine Daten zum Exportieren verfügbar</string>
+    <string name="data_fragment_toast_onlyxls">Es werden nur .xls-Dateien unterstützt.</string>
+    <string name="data_fragment_toast_noled">Ihr Gerät besitzt leider keine Lampe.</string>
+    <string name="data_fragment_toast_bluetooth_notavailible">Bluetooth ist nicht verfügbar</string>
+    <string name="data_fragment_update_dialog_title">Daten überschreiben</string>
+    <string name="data_fragment_update_dialog_message">Möchten Sie den Zählerstand vom %1$s überschreiben?\n\nbisher:\t\t%2$s\nneu:\t\t\t\t%3$s</string>
+    <string name="data_fragment_update_dialog_negative">Abbrechen</string>
+    <string name="data_fragment_update_dialog_positiv">Überschreiben</string>
+    <string name="data_fragment_import_dialog_title">Daten importieren</string>
+    <string name="data_fragment_import_excel_dialog_title">Daten importieren</string>
+    <string name="data_fragment_import_excel_dialog_message">Es wurden %1$d Zählerstände gefunden:\n%2$s: %3$s\n…\n%4$s: %5$s</string>
+    <string name="data_fragment_import_excel_dialog_message1">ACHTUNG! Bisherige Daten in diesem Bereich werden gelöscht.</string>
+    <string name="data_fragment_import_excel_dialog_message2">ACHTUNG! Alle bisherigen Daten werden gelöscht, da es sonst zu Konflikten kommt.</string>
+    <string name="data_fragment_import_excel_dialog_valueSize">Einheit:</string>
+    <string name="data_fragment_import_excel_dialog_negative">Abbrechen</string>
+    <string name="data_fragment_import_excel_dialog_positiv">Importieren</string>
+    <string name="data_fragment_import_excel_progress1">Daten werden gelesen, bitte warten…</string>
+    <string name="data_fragment_import_excel_progress2">Daten werden gespeichert, bitte warten…</string>
+    <string name="data_fragment_import_excel_nodata_dialog_title">Keine Daten gefunden</string>
+    <string name="data_fragment_import_excel_nodata_dialog_message">In der Excel-Tabelle konnten keine Daten gefunden werden. Überprüfen Sie, ob die Daten im richtigen Format abgespeichert sind. Unter <i>Hilfe</i> finden Sie weitere Informationen dazu.</string>
+    <string name="data_fragment_import_excel_nodata_dialog_positive">Hilfe</string>
+    <string name="data_fragment_import_excel_nodata_dialog_negative">Abbrechen</string>
+    <string name="data_fragment_import_bluetooth_progressdialog_message">Scan nach Bluetooth-Geräten in Ihrer Nähe, bitte warten…</string>
+    <string name="data_fragment_import_bluetooth_list_dialog_title">Wechselrichter wählen</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_title">Keine Blutooth-Geräte gefunden</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_message">Es wurde kein Blutooth-Geräte in Ihrer Nähe gefunden.</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_negative">Abbrechen</string>
+    <string name="data_fragment_import_bluetooth_nodevices_dialog_positive">Wiederholen</string>
+    <string name="data_fragment_delete_dialog_title">Zählerstand löschen</string>
+    <string name="data_fragment_delete_dialog_message">Wollen Sie den Zählerstand vom %1$s wirklich löschen?</string>
+    <string name="data_fragment_delete_dialog_positive">Löschen</string>
+    <string name="data_fragment_delete_dialog_negative">Abbrechen</string>
+    <string name="data_fragment_export_dialog_title">Daten exportieren als</string>
+    <string name="data_fragment_export_dialog_start">Startmonat: </string>
+    <string name="data_fragment_export_dialog_end">Endmonat: </string>
+    <string name="data_fragment_export_dialog_month">Monat: </string>
+    <string name="data_fragment_export_dialog_positive">Datei erstellen</string>
+    <string name="data_fragment_export_dialog_negative">Abbrechen</string>
+    <string name="data_fragment_export_dialog_toast">Das Startdatum muss vor dem Enddatum liegen</string>
+    <string name="data_fragment_export_progress_title">Exportieren</string>
+    <string name="data_fragment_export_progress_message">Datei wird erstellt, bitte warten…</string>
+    <string name="data_fragment_export_excel_filename">daten_%1$s.xls</string>
+    <string name="data_fragment_export_excel_sheetname">Zählerstände</string>
+    <string name="data_fragment_export_excel_head1">Datum</string>
+    <string name="data_fragment_export_excel_head2">Zählerstand</string>
+    <string name="data_fragment_export_pdf_filename">daten_%1$s.pdf</string>
+    <string name="data_fragment_export_pdf_title">Zählerstände %1$s</string>
+    <string name="data_fragment_export_pdf_subtitle">Generiert mit der <b>Solarstats</b> Android-App</string>
+    <string name="data_fragment_export_pdf_homepage"></string>
+    <string name="data_fragment_export_pdf_apwcopyright">Android PDF Writer © Copyright 2010 - 2013 | http://coderesearchlabs.com/androidpdfwriter</string>
+    
+    <string name="data_fragment_menu_import">Import</string>
+    <string name="data_fragment_menu_export">Export</string>
+    <string name="data_fragment_menu_led">LED</string>
+    
+    <string name="diagramm_fragment_view_text_no_data">Zu wenige Daten</string>
+    <string name="diagramm_fragment_view_text_loading">Laden…</string>
+    <string name="diagramm_fragment_timespinner_choosedata">Daten wählen</string>
+    <string name="diagramm_fragment_dialog_start_title">Startdatum wählen</string>
+    <string name="diagramm_fragment_dialog_end_title">Enddatum wählen</string>
+    <string name="diagramm_fragment_dialog_select">Fertig</string>
+    <string name="diagramm_fragment_dialog_pickyears_title">Jahre wählen</string>
+    <string name="diagramm_fragment_dialog_pickyears_text_comparison">und</string>
+    <string name="diagramm_fragment_dialog_pickyears_button">Fertig</string>
+    <string name="diagramm_fragment_dialog_pickyears_pickedsame_toast">Bitte wählen Sie zwei verschiedene Jahre.</string>
+    <string name="diagramm_fragment_dialog_pickyears_text_moreyears">bis</string>
+    <string name="diagramm_fragment_wrong_time_selected_toast">Ungültige Eingabe: Der %1$s ist nicht vor dem %2$s</string>
+    <string name="diagramm_fragment_export_dialog_title">Daten exportieren als</string>
+    <string name="diagramm_fragment_export_progress_title">Exportieren</string>
+    <string name="diagramm_fragment_export_progress_message">Datei wird erstellt, bitte warten…</string>
+    <string name="diagramm_fragment_export_filename">diagramm_%1$s.png</string>
+    <string name="diagramm_fragment_export_text_left">Erstellt mit der Solarstats Android-App</string>
+    <string name="diagramm_fragment_export_text_right"></string>
+    <string name="diagramm_fragment_export_dialog_size_title">Bildgröße einstellen</string>
+    <string name="diagramm_fragment_export_dialog_size_negative">Abbrechen</string>
+    <string name="diagramm_fragment_export_dialog_size_positive">Bild erstellen</string>
+    <string name="diagramm_fragment_export_dialog_size_maxvalue">40</string>
+    <string name="diagramm_fragment_export_dialog_size_minvalue">7</string>
+    <string name="diagramm_fragment_export_dialog_size_width">Breite:</string>
+    <string name="diagramm_fragment_export_dialog_size_height">Höhe:</string>
+    <string name="diagramm_fragment_export_dialog_size_value">%1$d px</string>
+    
+    <string name="diagramm_fragment_menu_export">Export</string>
+    
+    <string name="solarsystems_fragment_percentbar_nodata">Keine Daten</string>
+    <string name="solarsystems_fragment_dialog_edit_title">Anlage bearbeiten</string>
+    <string name="solarsystems_fragment_dialog_new_title">Neue Anlage</string>
+    <string name="solarsystems_fragment_dialog_new_name">Name:</string>
+    <string name="solarsystems_fragment_dialog_new_hint_must">erforderlich</string>
+    <string name="solarsystems_fragment_dialog_new_hint_may">optional</string>
+    <string name="solarsystems_fragment_dialog_new_defaultname">Hauptanlage</string>
+    <string name="solarsystems_fragment_dialog_new_date">Installationsdatum:</string>
+    <string name="solarsystems_fragment_dialog_new_date_dialog_title">Installationsdatum wählen</string>
+    <string name="solarsystems_fragment_dialog_new_date_button">wählen</string>
+    <string name="solarsystems_fragment_dialog_new_peak">Spitzenleistung:</string>
+    <string name="solarsystems_fragment_dialog_new_peak_unit_ending">/p</string>
+    <string name="solarsystems_fragment_dialog_new_payment">Gewinn pro %1$s:</string>
+    <string name="solarsystems_fragment_dialog_new_color">Farbe:</string>
+    <string name="solarsystems_fragment_dialog_new_cent">&#x00A2;</string>
+    <string name="solarsystems_fragment_dialog_new_positive">Speichern</string>
+    <string name="solarsystems_fragment_dialog_new_negative">Abbrechen</string>
+    <string name="solarsystems_fragment_dialog_delete_title">Anlage löschen</string>
+    <string name="solarsystems_fragment_dialog_delete_message">Möchten Sie diese Anlage wirklich löschen?\n\nACHTUNG! Alle dazugehörigen Zählerstände werden ebenfalls unwiderruflich gelöscht.</string>
+    <string name="solarsystems_fragment_dialog_delete_positive">Löschen</string>
+    <string name="solarsystems_fragment_dialog_delte_negative">Abbrechen</string>
+    <string name="solarsystems_fragment_progressdialog_deleting">Löschen…</string>
+    <string name="solarsystems_fragment_no_data"><i>Keine Daten</i></string>
+    <string name="solarsystems_fragment_saved_meter_reading">Gespeicherte Zählerstände:</string>
+    <string name="solarsystems_fragment_total_value">Zählerstand:</string>
+    <string name="solarsystems_fragment_efficiency">Effizienz:</string>
+    <string name="solarsystems_fragment_earnings">Gesamtgewinn:</string>
+    <string name="solarsystems_fragment_name_total">Gesamt</string>
+    
+    <string name="solarsystems_fragment_notset"><i>Nicht gespeichert</i></string>
+    
+    <string name="solarsystems_fragment_menu_add">Neue Solaranlage</string>
+    
+    <string name="exported_fragment_no_data_text">Es wurden keine Dateien gefunden.\nSie können Diagramme und Zählerstände exportieren.</string>
+    <string name="exported_fragment_dialog_rename_title">Datei umbenennen</string>
+    <string name="exported_fragment_dialog_rename_message">Bitte geben Sie einen neuen Dateinamen ein:</string>
+    <string name="exported_fragment_dialog_rename_positive">Umbenennen</string>
+    <string name="exported_fragment_dialog_rename_negative">Abbrechen</string>
+    <string name="exported_fragment_dialog_delete_title">Datei löschen</string>
+    <string name="exported_fragment_dialog_delete_message">Möchten Sie diese Datei wirklich löschen?\n%1$s</string>
+    <string name="exported_fragment_dialog_delete_positive">Löschen</string>
+    <string name="exported_fragment_dialog_delete_negative">Abbrechen</string>
+    <string name="exported_fragment_toast_wrong_char_filename">Unzulässiges Zeichen!</string>
+    <string name="exported_fragment_toast_file_exists">Dieser Dateiname existiert bereits!</string>
+    <string name="exported_fragment_share_via">Senden per</string>
+    
+    <string name="exported_fragment_context_menu_open">Öffnen</string>
+    <string name="exported_fragment_context_menu_rename">Umbenennen</string>
+    <string name="exported_fragment_context_menu_delete">Löschen</string>
+    <string name="exported_fragment_context_menu_share">Senden…</string>
+    
+    <string name="help_data_1"><b>Die Tabelle</b>\nIhre eingegeben Zählerstände werden in einer Tabelle angezeigt. Links steht das Datum, in der Mitte der Zählerstand und in der rechten Spalte steht, wieviel Ihre Solaranlage an diesem Tag produziert hat. Wenn das ungefähr-Zeichen \"~\" vor dem Wert steht, dann handelt es sich um einen Mittelwert. Es fehlt dann mindestens der Eintrag vom Vortag.</string>
+    <string name="help_data_2"><b>Daten eintragen</b>\nMithilfe des Eingabefeldes am unteren Bildschirmrand tragen Sie die Zählerstände Ihrer Solaranlage ein. Links neben dem Eingabefeld können Sie ein Datum wählen. Es wird immer automatisch geprüft, ob der eingegeben Wert richtig sein kann (d.h. er ist mindestens so groß wie der Zählerstand vom Vortag und maximal so groß wie der Zählerstand vom Folgetag). In welcher Einheit (kWh, MWh, usw.) Sie die Werte eingeben, legen Sie in den Einstellungen fest.</string>
+    <string name="help_data_3"><b>Daten importieren (Excel)</b>\nÜber das Menü können Sie Zählerstände aus einer Excel-Datei importieren. Es werden nur .xls-Dateien (also bis Excel 2003) akzeptiert. Über Ihren File-Manager wählen Sie die Datei aus. Dann sucht die App nach Daten. Die Daten in der Excel-Datei müssen in diesem Format vorliegen, damit sie gefunden werden können:</string>
+    <string name="help_data_4">Neben jedem Datum in der linken Spalte steht ein Zählerstand in der direkten rechten Nachbarspalte. Dabei sollte jedes Datum nur einmal vorkommen.</string>
+    <string name="help_diagramm_1"><b>Gesamter Zeitraum</b>\nDieses Diagramm stellt alle Daten dar, die gespeichert sind. Sie können durch eine Berührung des Graphen die genauen Werte für jeden Tag im Zeitraum sehen. Im Menü oben rechts können Sie, falls vorhanden, weitere Solaranlagen in diesem Diagramm einblenden.</string>
+    <string name="help_diagramm_2"><b>Monat</b>\nBei diesem Diagramm können Sie unten rechts den anzuzeigenden Monat auswählen. Dabei stehen Ihnen nur die Monate zur Verfügung, zu denen mindestens zwei Zählerstände gespeichert wurden, weil sonst kein Diagramm erzeugt werden kann. Hier können Sie auch die genauen Werte durch eine Berührung des Graphen einsehen und mehrere Solaranlagen in einem Diagramm anzeigen lassen.</string>
+    <string name="help_diagramm_3"><b>Ein Jahr</b>\nDieses Säulendiagramm kann die Übersicht über einzelne Jahre geben. Es werden auch mindestens zwei Zählerstände für ein Jahr benötigt, damit Sie es auswählen können. Das Diagramm ist jedoch nur sinnvoll, wenn Sie regelmäßig Werte eintragen.</string>
+    <string name="help_diagramm_4"><b>Mehrere Jahre</b>\nBei diesem Diagramm erhalten Sie einen Überblick über mehrere Jahre. Sie müssen Start- und Endjahr festlegen. Dieser Zeitraum wird dann mit einem Säulendiagramm dargestellt.</string>
+    <string name="help_diagramm_5"><b>Jahr-Vergleich</b>\nMit diesem Säulendiagramm lassen sich zwei Jahre vergleichen. Das geht nur, wenn Sie für zwei oder mehr Jahre jeweils mindestens zwei Zählerstände gespeichert haben. Allerdings ist diese Diagrammform auch nur dann sinnvoll, wenn viele Zählerstände vorliegen.</string>
+    <string name="help_diagramm_6"><b>Zeitraum wählen</b>\nFür dieses Diagramm müssen Sie einen Zeitraum festlegen, der angezeigt werden soll. Auch hier bekommen Sie durch eine Berührung des Graphen die genauen Werte der Tage im Zeitraum. Außerdem können Sie in diesem Diagramm mehrere Solaranlagen vergleichen, indem Sie das Menü in der oberen rechten Ecke nutzen.</string>
+    <string name="help_systems_1"><b>Gesamt-Übersicht</b>\nWenn Sie mindestens zwei Solaranlagen bzw. Wechselrichter mit Solarstats verwalten, erhalten Sie am oberen Bildschirmrand eine Übersicht über alle vorhandenen Daten. Es werden dabei alle Werte jeweils addiert, bei der Effizienz der Mittelwert berechnet.\nEin kleines Diagramm gibt Ihnen eine Übersicht, welche Solaranlage was für einen Anteil an der Gesamtproduktion hat.</string>
+    <string name="help_systems_2"><b>Einzelne Solaranlage</b>\nMit dem Plus in der oberen rechten Ecke können Sie Solaranlagen hinzufügen. Dafür sind immer ein Name, ein Installationsdatum und eine Farbe notwendig. Optional können Sie die Spitzenleistung (Peak-Leistung) und den Gewinn pro kWh eintragen. Aus diesen Daten können dann Effizienz und Gesamtgewinn berechnet werden. Diese Daten können nur in die Gesamt-Übersicht einfließen, wenn Spitzenleistung bzw. Gewinn pro kWh angegeben sind.\nBitte beachten Sie, dass die Effizienzberechnung genauer wird, wenn Sie mehrere Daten eintragen. Sollten Sie also erst wenige Daten eingetragen haben, kann es zu falschen Effizienzwerten kommen.</string>
+    <string name="help_exported">Auf diesem Bildschirm werden alle exportierten Dateien angezeigt. Durch einen einfachen Klick können Sie eine Datei öffnen, durch gedrückt halten bekommen Sie mehrere Möglichkeiten.</string>
+    
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_title_valueSize">Einheit</string>
+    <string name="settings_default_valueSize">kWh</string>
+    <string name="settings_title_enableReminder">Tägliche Erinnerung</string>
+    <string name="settings_summary_enableReminder">Sie werden täglich daran erinnert, den Zählerstand einzutragen.</string>
+    <string name="settings_title_reminderInterval">Erinnerungsrhythmus</string>
+    <string name="settings_title_reminderTime">Uhrzeit</string>
+    <string name="settings_reminderTime_default">21:00</string>
+    <string name="settings_title_reminderDay">Tag</string>
+    <string name="settings_title_reminderNextAlarm">Nächste Erinnerung</string>
+    <string name="settings_title_deleteAll">Alle Daten löschen</string>
+    <string name="settings_summary_deleteAll">Achtung! Es werden alle Zählerstände gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.</string>
+    <string name="settings_deleteDilaog_negative">Abbrechen</string>
+    <string name="settings_deleteDilaog_positive">Löschen</string>
+    <string name="settings_deleteDilaog_progress">Löschen…</string>
+    <string name="settings_intervalDialog_title">Erinnerungrhythmus einstellen</string>
+    <string name="settings_timeDialog_title">Uhrzeit wählen</string>
+    <string name="settings_dayDialog_title">Wochentag wählen</string>
+    <string name="settings_valueSizeDialog_title">Einheit wählen</string>
+    <string name="settings_valueSizeDialog_checkbox">Bisherige Werte in neue Einheit umrechnen</string>
+    <string name="settings_valueSizeDialog_negative">Abbrechen</string>
+    <string name="settings_valueSizeDialog_positive">Speichern</string>
+    <string name="settings_valueSizeProgressDialog_title">Daten werden verändert</string>
+    <string name="settings_valueSizeProgressDialog_message">Bisherige Daten werden neu berechnet und gespeichert, bitte warten…</string>
+    
+    <string name="about_fragment_imprint"><b>Impressum</b>\nMarkus Wiktorin\nHeussstr. 23\n53332 Bornheim\nE-Mail: <a href="mailto:markuswiktorin@gmail.com">markuswiktorin@gmail.com</a></string>
+	<string name="about_fragment_info"><b>Informationen</b>\nBei Fehlern oder Verbesserungsvorschlägen melden Sie sich bitte unter der unten angegebenen E-Mail-Adresse.\nVielen Dank an das Open-Source-Projekt <a href="http://jexcelapi.sourceforge.net/">Java Excel API</a>. Das Im- und Exportieren der Zählerstände funktioniert mit diesem Projekt.\nZum Erstellen von PDF-Dokumenten wird die <a href="http://coderesearchlabs.com/androidpdfwriter/">Android PDF Writer Library</a> verwendet.</string>
+	<string name="about_fragment_apwcopyright"><a href="">Copyright-Hinweise zur Android PDF Writer Library</a></string>
+	<string name="about_fragment_disclaimer1"><b>Haftung für Inhalte</b>\nAls Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte in dieser App nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</string>
+	<string name="about_fragment_disclaimer2"><b>Haftung für Links</b>\nUnsere App enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</string>
+	<string name="about_fragment_apwdialog_title">Android PDF Writer Library</string>
+	<string name="about_fragment_apwdialog_message">Android PDF Writer\nCopyright © 2013–2013\n\nAll rights reserved.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \'AS IS\' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE G00DS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+	<string name="about_fragment_apwdialog_positive">OK</string>
+	<string name="about_fragment_buttonRate">Bewerten</string>
+	<string name="about_fragment_buttonShare">Empfehlen</string>
+	<string name="about_fragment_rate_url">https://play.google.com/store/apps/details?id=de.mwiktorin.solarstats</string>
+	<string name="about_fragment_share_subject">Solarstats Android-App</string>
+	<string name="about_fragment_share_text">Ich habe eine tolle App gefunden. Hier kannst du dir Sie ansehen und kostenlos herunterladen:\n</string>
+	<string name="about_fragment_share_chooser">Empfehlen per</string>
+</resources>

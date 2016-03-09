@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prefkey_enableReminder">enableReminder</string>
+    <string name="prefkey_reminderTime">reminderTime</string>
+    <string name="prefkey_reminderInterval">reminderIntervall</string>
+    <string name="prefkey_reminderDay">reminderDay</string>
+    <string name="prefkey_reminderNextAlarm">reminderNextAlarm</string>
+    <string name="prefkey_valueSize">valueSize</string>
+	<string name="prefkey_deleteAllData">deleteAllData</string>
+	
+	<color name="light_orange">#FFBB33</color>
+	<color name="dark_orange">#FF8800</color>
+	<color name="grey">#E3E3E3</color>
+	
+	<string-array name="systemColorsHEX">
+        <item>#FF8800</item>
+        <item>#CC0000</item>
+        <item>#669900</item>
+        <item>#9933CC</item>
+        <item>#0099CC</item>
+    </string-array>
+</resources>

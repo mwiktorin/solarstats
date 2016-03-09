@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.mwiktorin.solarstats"
+    android:versionCode="7"
+    android:versionName="1.04.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="de.mwiktorin.solarstats.storage.MyContentProvider"
+            android:authorities="de.mwiktorin.solarstats.MyContentProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="de.mwiktorin.solarstats.receivers.BootReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.mwiktorin.solarstats.receivers.AlarmReceiver" />
+        <receiver android:name="de.mwiktorin.solarstats.receivers.LaterAlarm" />
+
+        <activity
+            android:name="de.mwiktorin.solarstats.activities.StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.mwiktorin.solarstats.activities.MainActivity"
+            android:configChanges="orientation"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="de.mwiktorin.solarstats.activities.FirstActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="de.mwiktorin.solarstats.activities.FileChooserActivity"
+            android:label="@string/file_chooser_title"
+            android:icon="@drawable/ic_menu_archive"
+            android:parentActivityName="de.mwiktorin.solarstats.activities.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.mwiktorin.solarstats.activities.SettingsActivity"
+            android:label="@string/settings_title"
+            android:icon="@drawable/ic_menu_preferences"
+            android:parentActivityName="de.mwiktorin.solarstats.activities.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

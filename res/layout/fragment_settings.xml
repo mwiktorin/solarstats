@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Preference
+        android:background="#fff"
+        android:key="@string/prefkey_valueSize"
+        android:title="@string/settings_title_valueSize" />
+
+    <CheckBoxPreference
+        android:key="@string/prefkey_enableReminder"
+        android:summary="@string/settings_summary_enableReminder"
+        android:title="@string/settings_title_enableReminder" />
+
+    <Preference
+        android:dependency="@string/prefkey_enableReminder"
+        android:key="@string/prefkey_reminderInterval"
+        android:title="@string/settings_title_reminderInterval" />
+
+    <Preference
+        android:dependency="@string/prefkey_enableReminder"
+        android:key="@string/prefkey_reminderTime"
+        android:title="@string/settings_title_reminderTime" />
+
+    <Preference
+        android:dependency="@string/prefkey_enableReminder"
+        android:key="@string/prefkey_reminderDay"
+        android:title="@string/settings_title_reminderDay" />
+    
+    <Preference
+        android:selectable="false"
+        android:dependency="@string/prefkey_enableReminder"
+        android:key="@string/prefkey_reminderNextAlarm"
+        android:title="@string/settings_title_reminderNextAlarm" />
+
+    <Preference
+        android:key="@string/prefkey_deleteAllData"
+        android:summary="@string/settings_summary_deleteAll"
+        android:title="@string/settings_title_deleteAll" />
+
+</PreferenceScreen>
