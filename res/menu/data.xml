@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    
+
+	<!-- removed because i have no privacy policy
     <item
 	    android:id="@+id/data_menu_led" 
 	    android:title="@string/data_fragment_menu_led"
 	    android:icon="@drawable/led_enable"
 	    android:showAsAction="always"/>
-    
+    -->
 	<item
 	    android:id="@+id/data_menu_import" 
 	    android:title="@string/data_fragment_menu_import"

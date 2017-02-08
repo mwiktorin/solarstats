@@ -421,6 +421,7 @@ public class DataTableFragment extends Fragment implements EventListener {
 				dialogFragment.show(getFragmentManager(), "exportDialog");
 			}
 			break;
+		/* removed because i have no privacy policy
 		case R.id.data_menu_led:
 			try {
 				if (camera == null) {
@@ -447,6 +448,7 @@ public class DataTableFragment extends Fragment implements EventListener {
 				e.printStackTrace();
 			}
 			break;
+		*/
 		}
 		return false;
 	}
